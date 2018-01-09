@@ -1,0 +1,17 @@
+{
+  "name": "summer-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Dmitry Kalyuk <dmitry@kalyuk.ru>",
+  "dependencies": {
+    "@types/node": "^8.5.2",
+    "reflect-metadata": "^0.1.10",
+    "summer-ts": "^0.0.7",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "app": "ts-node ./src/bin/server.ts"
+  }
+}
